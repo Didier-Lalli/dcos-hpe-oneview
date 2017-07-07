@@ -878,7 +878,7 @@ pass the interface used for networking, **SSH\_CERT1** and
 _**Notes:** This is a temporary workaround as there is a current limitation on the
 length of a plan attribute._
 
-The OS Build plan is referencing a golden image and an OS build plan.
+The OS Deployment Plan is referencing a Golden Image and an OS Build Plan.
 The OS Build Plan has the steps which will happen to transform a Golden
 Image into a dedicated OS Volume. In most case this steps are applying
 changes on the OS Volume, using the input parameters of the Build Plan
